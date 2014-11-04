@@ -1,0 +1,33 @@
+TP réalisé par Yaker Mahieddine
+Questions auxquelles j'ai répondu :
+Question 1,2,3,4,5,6,7.
+
+Je suis allé un peu plus loin que vos consignes.
+je n'ai pas encore fait les fonctions de test pour les fonctions suivantes :
+
+
+
+lecture et ecriture du mbr.
+
+void read_bloc(unsigned int vol, unsigned int nbloc,unsigned char *buffer);
+
+void write_bloc(unsigned int vol, unsigned int nbloc,const unsigned char *buffer);
+
+void format_vol(unsigned int vol);
+
+
+
+Pour pouvoir lancer le test des fonctions suivante :
+dmps()
+frmt()
+void read_sector(unsigned int cylinder, unsigned int sector,
+                 unsigned char *buffer);
+void write_sector(unsigned int cylinder, unsigned int sector,
+                  const unsigned char *buffer);
+void format_sector(unsigned int cylinder, unsigned int sector,
+                   unsigned int nsector,
+                   unsigned int value);
+
+
+Apres un make, lancez la commande ./drive -t > res.txt.
+
